@@ -1,0 +1,10 @@
+root = true
+# aqui informa que essa é a configuração mais importante , a configuração principal do projeto em questão de estilo de código, caso tenhamos outro arquivo editorconfig
+[*] #essa configuração que vamos fazer serve para todos os arquivos
+indent_style = space #aqui escolhemos como vai ser o estilo da indentação
+indent_size = 2 #aqui escolhemos quantos espaços
+end_of_line = lf  #aqui escolhemos a formatação final da linha
+charset = utf-8 #aqui escolhemos os caracteres do html, o padrão é utf-8
+trim_trailing_whitespace = true #aqui nos obriga a colocar espaço depois de símbolos. Ex: function somar (a,b) {} ele adicionaria o espaço após "a,"
+insert_final_newline = true #essa configuração faz com que finalize o arquivo com uma linha em branco.
+space_between_parentheses = true
